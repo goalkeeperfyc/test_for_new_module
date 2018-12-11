@@ -6,6 +6,7 @@ Created on Tue Dec 11 19:38:48 2018
 """
 
 import os
+import time
 
 class Test_Pool():
     
@@ -13,6 +14,7 @@ class Test_Pool():
         pid = os.getpid()
         c = a + b
         print(c)
+        time.sleep(5)
         print("this is process %s" % pid)
         
     def func2(self):
