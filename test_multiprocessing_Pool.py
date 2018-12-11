@@ -12,6 +12,6 @@ function = Test_Pool().func1
 pool = Pool(5)
 
 for line in range(5):
-    pool.apply_async(func=function, arg=(5, ), kwds={'b': line})
+    pool.apply_async(func=function, args=(line, ), kwds={'b': line})
 pool.close()
 pool.join()
