@@ -9,3 +9,33 @@ Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is p
 Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14755
 Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14752
 Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14756
+2018-12-19 02:01:21 multiprocessing_and_logging.py[line:28] INFO this is process 16685 with 5
+2018-12-19 02:01:21 multiprocessing_and_logging.py[line:28] INFO this is process 16687 with 7
+2018-12-19 02:01:21 multiprocessing_and_logging.py[line:28] INFO this is process 16686 with 6
+2018-12-19 02:01:21 multiprocessing_and_logging.py[line:28] INFO this is process 16688 with 8
+2018-12-19 02:01:21 multiprocessing_and_logging.py[line:28] INFO this is process 16689 with 9
+2018-12-19 02:01:26 multiprocessing_and_logging.py[line:31] INFO this is process 16685
+2018-12-19 02:01:26 multiprocessing_and_logging.py[line:31] INFO this is process 16686
+2018-12-19 02:01:26 multiprocessing_and_logging.py[line:31] INFO this is process 16687
+2018-12-19 02:01:26 multiprocessing_and_logging.py[line:31] INFO this is process 16688
+2018-12-19 02:01:26 multiprocessing_and_logging.py[line:31] INFO this is process 16689
+2018-12-19 02:02:30 multiprocessing_and_logging.py[line:28] INFO this is process 16708 with 5
+2018-12-19 02:02:30 multiprocessing_and_logging.py[line:28] INFO this is process 16709 with 6
+2018-12-19 02:02:30 multiprocessing_and_logging.py[line:28] INFO this is process 16710 with 7
+2018-12-19 02:02:30 multiprocessing_and_logging.py[line:28] INFO this is process 16711 with 8
+2018-12-19 02:02:30 multiprocessing_and_logging.py[line:28] INFO this is process 16712 with 9
+2018-12-19 02:02:35 multiprocessing_and_logging.py[line:31] INFO this is process 16708
+2018-12-19 02:02:35 multiprocessing_and_logging.py[line:31] INFO this is process 16709
+2018-12-19 02:02:35 multiprocessing_and_logging.py[line:31] INFO this is process 16710
+2018-12-19 02:02:35 multiprocessing_and_logging.py[line:31] INFO this is process 16711
+2018-12-19 02:02:35 multiprocessing_and_logging.py[line:31] INFO this is process 16712
+2018-12-19 02:04:31 multiprocessing_and_logging.py[line:28] INFO this is process 16764 with 5
+2018-12-19 02:04:31 multiprocessing_and_logging.py[line:28] INFO this is process 16765 with 6
+2018-12-19 02:04:31 multiprocessing_and_logging.py[line:28] INFO this is process 16766 with 7
+2018-12-19 02:04:31 multiprocessing_and_logging.py[line:28] INFO this is process 16767 with 8
+2018-12-19 02:04:31 multiprocessing_and_logging.py[line:28] INFO this is process 16768 with 9
+2018-12-19 02:04:36 multiprocessing_and_logging.py[line:31] INFO this is process 16766
+2018-12-19 02:04:36 multiprocessing_and_logging.py[line:31] INFO this is process 16765
+2018-12-19 02:04:36 multiprocessing_and_logging.py[line:31] INFO this is process 16764
+2018-12-19 02:04:36 multiprocessing_and_logging.py[line:31] INFO this is process 16767
+2018-12-19 02:04:36 multiprocessing_and_logging.py[line:31] INFO this is process 16768
