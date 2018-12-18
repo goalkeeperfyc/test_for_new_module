@@ -2,16 +2,6 @@
 """
 Created on Wed Jun 20 11:24:30 2018
 
-It takes 8.5 hours to caculate 9088171 lines in short-video-weekly/daily-url-2018_w23_s1
-when setting threads_num = 10 in actual program execution, see detail in log file
-on server 192.168.17.11 file
-/home/hanye/project_data/Python/Projects/proj-short-videos/write-data-into-es/log/
-cal_weekly_net_inc_for_daily-url-2018_w23_s1_on_2018-07-04T18-38-35.987666_log
-
-A rough estimate earilier shows about 50 hours time expense in single thread on
-the same data set.
-
-@author: hanye
 """
 
 import datetime
