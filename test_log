@@ -1,0 +1,11 @@
+Tue, 18 Dec 2018 23:51:23 <ipython-input-2-147c6a39deea>[line:1] INFO test logging
+Wed, 19 Dec 2018 00:47:11 multiprocessing_and_logging.py[line:28] INFO this is process 14752 with 5
+Wed, 19 Dec 2018 00:47:11 multiprocessing_and_logging.py[line:28] INFO this is process 14753 with 6
+Wed, 19 Dec 2018 00:47:11 multiprocessing_and_logging.py[line:28] INFO this is process 14754 with 7
+Wed, 19 Dec 2018 00:47:11 multiprocessing_and_logging.py[line:28] INFO this is process 14755 with 8
+Wed, 19 Dec 2018 00:47:11 multiprocessing_and_logging.py[line:28] INFO this is process 14756 with 9
+Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14753
+Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14754
+Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14755
+Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14752
+Wed, 19 Dec 2018 00:47:16 multiprocessing_and_logging.py[line:31] INFO this is process 14756

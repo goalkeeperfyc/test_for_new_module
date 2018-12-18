@@ -26,3 +26,11 @@ def output_log(page_category, program_info, log_path='F:/program_log/'):
     logging.getLogger('').addHandler(console)
     log_func = logging.getLogger(page_category)
     return log_func
+
+
+logging.basicConfig(level=logging.DEBUG,  
+                    format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',  
+                    datefmt='%a, %d %b %Y %H:%M:%S',  
+                    filename='/users/fangyucheng/Documents/code//python_code/test_for_new_module/test_log',  
+                    filemode='a') 
+
