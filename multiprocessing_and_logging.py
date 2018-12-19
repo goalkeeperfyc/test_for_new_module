@@ -7,7 +7,6 @@ Created on Tue Dec 11 19:38:48 2018
 
 import os
 import time
-import datetime
 from multiprocessing import Pool
 import test_for_new_module
 
@@ -16,7 +15,7 @@ import test_for_new_module
 class Test_Pool():
     
     def __init__(self):
-        pass
+        self.loggerii = test_for_new_module.logging.getLogger('test_purpose')
 #        logging.basicConfig(level=logging.DEBUG,  
 #                            format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',  
 #                            datefmt='%Y-%m-%d %H:%M:%S',
@@ -28,17 +27,17 @@ class Test_Pool():
 #        formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
 #        console.setFormatter(formatter)
 #        logging.getLogger('').addHandler(console)
-        
+
     def func1(self, a, b=5):
         pid = os.getpid()
         c = a + b
-        test_for_new_module.logging.info('this is process %s with %s' % (pid, c))
+        self.loggerii.info('this is process %s with %s' % (pid, c))
         time.sleep(5)
-        test_for_new_module.logging.info('this is process %s' % pid)
+        self.loggerii.logging.info('this is process %s' % pid)
         
     def func2(self, c, d):
         pid = os.getpid()
-        test_for_new_module.logging.info('this is process %s, with input number %s %s' % (pid, c, d))
+        self.loggerii.logging.info('this is process %s, with input number %s %s' % (pid, c, d))
 
 if __name__ == '__main__':
     test = Test_Pool()
