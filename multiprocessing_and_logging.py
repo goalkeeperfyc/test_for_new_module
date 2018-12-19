@@ -8,7 +8,6 @@ Created on Tue Dec 11 19:38:48 2018
 import os
 import time
 from multiprocessing import Pool
-import test_for_new_module
 from test_for_new_module import logging_output_to_different_files
 
 
@@ -35,11 +34,10 @@ class Test_Pool():
         c = a + b
         self.loggerinfo.info('this is process %s with %s' % (pid, c))
         time.sleep(5)
-        self.loggererror.error('this is process %s' % pid)
+        self.loggererror.error('%s this is test for error' % pid)
         
     def func2(self, c, d):
-        pid = os.getpid()
-        self.loggerii.logging.info('this is process %s, with input number %s %s' % (pid, c, d))
+        pass
 
 if __name__ == '__main__':
     test = Test_Pool()

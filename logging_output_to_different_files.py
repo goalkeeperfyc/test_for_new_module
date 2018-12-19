@@ -6,7 +6,7 @@ Created on Wed Dec 19 12:36:20 2018
 """
 
 import logging
-formatter = logging.Formatter('%(asctime)s %(name)-12s:%(filename)s %(funcName)s %(levelname)s %(message)s')
+formatter = logging.Formatter('%(asctime)s %(name)s: %(filename)s %(funcName)s %(levelname)s %(message)s')
 
 
 def setup_logger(name, log_file, level=logging.INFO):
