@@ -10,13 +10,18 @@ formatter = logging.Formatter('%(asctime)s %(name)s: %(filename)s %(funcName)s %
 
 
 def setup_logger(name, log_file, level=logging.INFO):
-    """Function setup as many loggers as you want"""
-
+    """initialize logger"""
+    #output log to file
     handler = logging.FileHandler(log_file)
     handler.setFormatter(formatter)
-
+    #output log to screen
+    console = logging.StreamHandler()
+    console.setFormatter(formatter)
+    #initialize logger
     logger = logging.getLogger(name)
     logger.setLevel(level)
+    #add handler and console to logger
     logger.addHandler(handler)
-
+    logger.addHandler(console)
     return logger
+
