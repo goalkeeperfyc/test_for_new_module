@@ -8,7 +8,7 @@ Created on Tue Dec 11 19:38:48 2018
 import os
 import time
 import logging
-from multiprocessing import 
+from multiprocessing import Pool
 
 class Test_Pool():
     
