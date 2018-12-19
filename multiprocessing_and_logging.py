@@ -33,7 +33,7 @@ class Test_Pool():
         c = a + b
         self.loggerii.info('this is process %s with %s' % (pid, c))
         time.sleep(5)
-        self.loggerii.logging.info('this is process %s' % pid)
+        self.loggerii.info('this is process %s' % pid)
         
     def func2(self, c, d):
         pid = os.getpid()
