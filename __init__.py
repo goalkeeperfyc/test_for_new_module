@@ -8,7 +8,7 @@ Created on Wed Dec 19 09:47:01 2018
 import logging
 
 logging.basicConfig(level=logging.DEBUG,  
-                    format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',  
+                    format='%(asctime)s %(name)-12s:%(filename)s %(funcName)s %(levelname)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
                     filename='/home/fangyucheng/python_code/test_for_new_module/test_log',
                     #filename='/users/fangyucheng/Documents/code/python_code/test_for_new_module/test_log',
