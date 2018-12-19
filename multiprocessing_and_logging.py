@@ -16,11 +16,16 @@ class Test_Pool():
     def __init__(self):
         logging.basicConfig(level=logging.DEBUG,  
                             format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',  
-                            datefmt='%Y-%m-%d %H:%M:%S',  
-                            filename='/users/fangyucheng/Documents/code/python_code/test_for_new_module/test_log',  
+                            datefmt='%Y-%m-%d %H:%M:%S',
+                            filename='/home/fangyucheng/python_code/test_for_new_module/test_log',
+                            #filename='/users/fangyucheng/Documents/code/python_code/test_for_new_module/test_log',
                             filemode='a') 
-    
-    
+        console = logging.StreamHandler()
+        console.setLevel(logging.DEBUG)
+        formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+        console.setFormatter(formatter)
+        logging.getLogger('').addHandler(console)
+        
     def func1(self, a, b=5):
         pid = os.getpid()
         c = a + b
