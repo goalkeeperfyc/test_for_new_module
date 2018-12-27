@@ -1,6 +1,7 @@
 post_url = ("https://r.inews.qq.com/getQQNewsUnreadList?appver=12.0.1_qqnews_5.7.22"
     "&pagestartfrom=icon&page_type=timeline&apptype=ios"
-    "&rtAd=1&imsi=460-01&screen_height=667&httpRequestUid=21d3cb678d9a"
+    "&rtAd=1&imsi=460-01&screen_height=667"
+    "&httpRequestUid=21d3cb678d9a"
     "&qn-sig=781F8ABD64529A42BE1D0BF5986D041B"
     "&network_type=wifi"
     "&startTimestamp=1545835451"
@@ -20,9 +21,17 @@ post_url = ("https://r.inews.qq.com/getQQNewsUnreadList?appver=12.0.1_qqnews_5.7
     "&omgbizid=138dc6ef3ae8a24f7c897a9bbde8b9098f210060113210"
     "&idfa=05571C2D-1C86-4B5B-87EF-E4B4DAF07DDB")
 
+
+
+
+
+
+
+
 another_post_url = ("https://r.inews.qq.com/getQQNewsUnreadList?appver=12.0.1_qqnews_5.7.22"
     "&pagestartfrom=icon&page_type=timeline&apptype=ios"
-    "&rtAd=1&imsi=460-01&screen_height=667&httpRequestUid=21d36f98ddec"
+    "&rtAd=1&imsi=460-01&screen_height=667"
+    "&httpRequestUid=21d36f98ddec"
     "&qn-sig=801CCF01741EDD6F0B357BA362150DA7"
     "&network_type=wifi"
     "&startTimestamp=1545811980"
@@ -37,9 +46,54 @@ another_post_url = ("https://r.inews.qq.com/getQQNewsUnreadList?appver=12.0.1_qq
     "&qn-rid=14051E90-392F-4965-A712-A8AC2DFE685E"
     "&qqnews_refpage=QNCommonListChannelVideoController"
     "&omgid=a305486b92cc9e48f90929497de4cb30dfde0010112206"
-    "&device_model=iPhone9%2C1&pagestartFrom=icon&device_appin=6F0D5898-2C3A-46FE-9181-589BC52ED743"
+    "&device_model=iPhone9%2C1&pagestartFrom=icon"
+    "&device_appin=6F0D5898-2C3A-46FE-9181-589BC52ED743"
     "&devid=D605A70A-D084-487E-AAF1-8A057D40EF39"
     "&omgbizid=138dc6ef3ae8a24f7c897a9bbde8b9098f210060113210"
     "&idfa=05571C2D-1C86-4B5B-87EF-E4B4DAF07DDB")
 
-unique_info_list = ['qn-sig', 'startTimestamp', 'global_session_id', '__qnr', 'qn-rid']
+
+
+
+
+
+
+
+post_url3 = ("https://r.inews.qq.com/getQQNewsUnreadList?appver=12.0.1_qqnews_5.7.22"
+    "&pagestartfrom=icon&page_type=timeline&apptype=ios"
+    "&rtAd=1&imsi=460-01&screen_height=667"
+    "&httpRequestUid=21d3cb678d9a"
+    "&qn-sig=781F8ABD64529A42BE1D0BF5986D041B"
+    "&network_type=wifi"
+    "&startTimestamp=1545835451"
+    "&store=1"
+    "&deviceToken=%3Cf4b49138%203ca95e38%201519836e%20daefaab6%20799b04da%20c164f7a7%204cb7d999%206e343393%3E"
+    "&global_info=1%7C1%7C1%7C1%7C1%7C14%7C4%7C1%7C0%7C6%7C1%7C1%7C2%7C2%7C0%7CJ267P000000000%3AJ060P000000000%3AB054P000015802%3AJ054P600000000%7C1421%7C0%7C1%7C0%7C0%7C0%7C0%7C0%7C1001%7C0%7C6%7C1%7C1%7C1%7C1%7C1%7C1%7C-1%7C0%7C0%7C0%7C2%7C1%7C1%7C0%7C0%7C2%7C0%7C1%7C0%7C4%7C0%7C0%7C0%7C3%7C0%7C0%7C0%7C0"
+    "&globalInfo=1%7C1%7C1%7C1%7C1%7C14%7C4%7C1%7C0%7C6%7C1%7C1%7C2%7C2%7C0%7CJ267P000000000%3AJ060P000000000%3AB054P000015802%3AJ054P600000000%7C1421%7C0%7C1%7C0%7C0%7C0%7C0%7C0%7C1001%7C0%7C6%7C1%7C1%7C1%7C1%7C1%7C1%7C-1%7C0%7C0%7C0%7C2%7C1%7C1%7C0%7C0%7C2%7C0%7C1%7C0%7C4%7C0%7C0%7C0%7C3%7C0%7C0%7C0%7C0"
+    "&screen_scale=2&activefrom=icon&screen_width=375"
+    "&global_session_id=1545835449686"
+    "&__qnr=21d3cb67ea8b"
+    "&isJailbreak=0"
+    "&qn-rid=F79EC39E-D132-4694-B1C0-6292E7006EE3"
+    "&qqnews_refpage=QNCommonListController"
+    "&omgid=a305486b92cc9e48f90929497de4cb30dfde0010112206"
+    "&device_model=iPhone9%2C1&pagestartFrom=icon"
+    "&device_appin=6F0D5898-2C3A-46FE-9181-589BC52ED743"
+    "&devid=D605A70A-D084-487E-AAF1-8A057D40EF39
+    "&omgbizid=138dc6ef3ae8a24f7c897a9bbde8b9098f210060113210"
+    "&idfa=05571C2D-1C86-4B5B-87EF-E4B4DAF07DDB")
+
+
+unique_info_list = ['qn-sig', 'startTimestamp', 'global_session_id', '__qnr', 'qn-rid', 'httpRequestUid']
+
+#qn-sig and qn-rid sovled in search page
+#startTimestamp is a timestamp
+#global_session_id maybe a timestamp, too
+#__qnr and httpRequestUid are similiar with 12 symbols mixed with number and alphabets
+
+post_str = ("chlid=news_news_bj"
+    "&channelType=news_news_bj"
+    "&uid=6F0D5898-2C3A-46FE-9181-589BC52ED743"
+    "&forward=2&cachedCount=19"
+    "&adReqData=%7B%22chid%22%3A2%2C%22adtype%22%3A0%2C%22pf%22%3A%22iphone%22%2C%22launch%22%3A%220%22%2C%22ext%22%3A%7B%22mob%22%3A%7B%22mobstr%22%3A%22Aejy45%2BNeSZw4VxymYnnIhMV%2BMEM%2B6sW9Rkw16FvkWGCz1rsPQflpTnsN%2BKnArzMwheqHiLErlbOlNWL0SoBI0lJtRh13iyR%2BLxSv3Y%2BhJrixm%5C%2FSxn%5C%2FYhInAhlYioOjQ9cHGSSRmdgaDyqx2dDLZosKp%2BQSMqr649GGxQ36xbSdjbvZ3MGywBOsVNcf%2BEZkV%2BU9Q8LyDPc6PZ56b%5C%2FGLGncf4XcrVFnKlUi%2Bkebsg8DCD%5C%2FnlvTDGSkWOtu33GJ4Ct%5C%2FhfZ1c3UNHw5bRwHRM0L0%2B6QYANTrPzl2X6hZK3kijlJsub%2BRvcPNPNQGrhK3e4yYHJmspW19qE5mPgxd5lbwzIywD%2BXJDxvkQcsNcPQkpOKNKF%2BPsuDM1JXL5qE40ftNPr0HIl%5C%2FRCDndHZ3BLQHykGmnB%2BeTd7r9CrHK8Nsz6o%5C%2FHgb8OAeVf%2BLg8KXgTvVCM0kSRh36mRDkH%5C%2FUrf9CbKXxkfGE25PYafJCztjyN6UmXISjD29QZ8O3rkdeYdjvq%5C%2Fgg0A7CVz5FGYKAaao%5C%2FZst%2Bno3bguHsiU3FpgUvbmriTkgmoZKRJuze93AjkMXosLo%5C%2F0bGWQye4cTWPviwFfmX5crOe54vMoJX99k9jP1pgljjtUJ4ytcnpZHKe3kurWPfpnjfZoFDBq0M2NkdAslbZiP0wrvL23BGYjag5WtTYdPrxGHQLltOApjUb3k3vFcddEECeewhPW4cZuo56ZEsP7hYNEFt8U6cZr0zwTlC4a4SwsmoRCF4jm%5C%2FfzDai%2BdbXAtlh7tyl%5C%2FukbCetZqr%2BcJiu93Jz95VQwgfIS8usaJotsokZDYA6EeYnXMYYGtU4LtXEHmYOZx4cKltYAPntm8k3TwE37UhlSiK1kNeGVFt%22%7D%7D%2C%22ver%22%3A%225.7.22%22%2C%22slot%22%3A%5B%7B%22islocal%22%3A1%2C%22orders_info%22%3A%5B%2279744489%2C8636963%2C0%2C19%2C4301%2C110%2C1%22%2C%2291041797%2C9117817%2C2544848705%2C1000%2C4201%2C110%2C2%22%2C%2288685632%2C1266139%2C1761176905%2C19%2C101%2C110%2C3%22%2C%2290052022%2C7602489%2C421733842%2C19%2C4301%2C110%2C1%22%2C%2290029756%2C9350875%2C2074460716%2C1000%2C807%2C110%2C2%22%2C%2290694671%2C8847804%2C1024628353%2C19%2C701%2C110%2C1%22%2C%2283500514%2C8636963%2C3787879925%2C19%2C4301%2C110%2C1%22%2C%2288650848%2C6946511%2C761624888%2C1000%2C1104%2C110%2C2%22%2C%2287430441%2C6860880%2C1472904684%2C1000%2C4109%2C110%2C2%22%2C%2289153209%2C7205647%2C2009512134%2C19%2C4302%2C110%2C1%22%5D%2C%22recent_rot%22%3A%5B%221%2C2%2C3%22%2C%224%2C5%22%2C%226%2C7%22%2C%228%2C9%22%2C%2210%22%5D%2C%22refresh_type%22%3A0%2C%22loid%22%3A%221%2C13%2C16%2C23%22%2C%22channel%22%3A%22news_news_bj%22%7D%5D%2C%22appversion%22%3A%22181210%22%7D"
+    "&channelPosition=4&page=0")
