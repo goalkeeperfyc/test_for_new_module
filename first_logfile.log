@@ -1,0 +1,2 @@
+2018-12-19 12:40:07,344 INFO This is just info message
+2018-12-19 12:46:07,072 first_logger:logging_output_to_different_files.py <module> INFO This is just info message
