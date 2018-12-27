@@ -37,7 +37,7 @@ another_post_url = ("https://r.inews.qq.com/getQQNewsUnreadList?appver=12.0.1_qq
     "&startTimestamp=1545811980"
     "&store=1"
     "&deviceToken=%3Cf4b49138%203ca95e38%201519836e%20daefaab6%20799b04da%20c164f7a7%204cb7d999%206e343393%3E"
-    "&global_info=1%7C1%7C1%7C1%7C1%7C14%7C4%7C1%7C0%7C6%7C1%7C1%7C2%7C2%7C0%7CJ267P000000000%3AJ060P000000000%3AB054P000015802%3AJ054P600000000%7C1421%7C0%7C1%7C0%7C0%7C0%7C0%7C0%7C%7C0%7C6%7C1%7C1%7C1%7C1%7C1%7C1%7C-1%7C0%7C0%7C0%7C2%7C1%7C1%7C0%7C0%7C2%7C0%7C1%7C0%7C4%7C0%7C0%7C0%7C3%7C0%7C0%7C0%7C0
+    "&global_info=1%7C1%7C1%7C1%7C1%7C14%7C4%7C1%7C0%7C6%7C1%7C1%7C2%7C2%7C0%7CJ267P000000000%3AJ060P000000000%3AB054P000015802%3AJ054P600000000%7C1421%7C0%7C1%7C0%7C0%7C0%7C0%7C0%7C%7C0%7C6%7C1%7C1%7C1%7C1%7C1%7C1%7C-1%7C0%7C0%7C0%7C2%7C1%7C1%7C0%7C0%7C2%7C0%7C1%7C0%7C4%7C0%7C0%7C0%7C3%7C0%7C0%7C0%7C0"
     "&globalInfo=1%7C1%7C1%7C1%7C1%7C14%7C4%7C1%7C0%7C6%7C1%7C1%7C2%7C2%7C0%7CJ267P000000000%3AJ060P000000000%3AB054P000015802%3AJ054P600000000%7C1421%7C0%7C1%7C0%7C0%7C0%7C0%7C0%7C%7C0%7C6%7C1%7C1%7C1%7C1%7C1%7C1%7C-1%7C0%7C0%7C0%7C2%7C1%7C1%7C0%7C0%7C2%7C0%7C1%7C0%7C4%7C0%7C0%7C0%7C3%7C0%7C0%7C0%7C0"
     "&screen_scale=2&activefrom=icon&screen_width=375"
     "&global_session_id=1545811837029"
@@ -79,7 +79,7 @@ post_url3 = ("https://r.inews.qq.com/getQQNewsUnreadList?appver=12.0.1_qqnews_5.
     "&omgid=a305486b92cc9e48f90929497de4cb30dfde0010112206"
     "&device_model=iPhone9%2C1&pagestartFrom=icon"
     "&device_appin=6F0D5898-2C3A-46FE-9181-589BC52ED743"
-    "&devid=D605A70A-D084-487E-AAF1-8A057D40EF39
+    "&devid=D605A70A-D084-487E-AAF1-8A057D40EF39"
     "&omgbizid=138dc6ef3ae8a24f7c897a9bbde8b9098f210060113210"
     "&idfa=05571C2D-1C86-4B5B-87EF-E4B4DAF07DDB")
 
@@ -99,23 +99,23 @@ post_str = ("chlid=news_news_bj"
     "&channelPosition=4&page=0")
 
 
-headers = {content-type: application/x-www-form-urlencoded
-store: 1
-accept: */*
-qn-sig: AD2CE2EF36ACE2846CFD60C9920D806C
-idft: CE1E8744-7BF9-4FDD-87A5-463C6B9A66E1
-idfa: 05571C2D-1C86-4B5B-87EF-E4B4DAF07DDB
-appver: 12.0.1_qqnews_5.7.22
-qn-rid: FC7162AE-23C4-4C98-8085-ED041D227E1E
-devid: d605a70a-d084-487e-aaf1-8a057d40ef39
-devicetoken: <f4b49138 3ca95e38 1519836e daefaab6 799b04da c164f7a7 4cb7d999 6e343393>
-accept-language: zh-Hans-CN;q=1, en-CN;q=0.9
-referer: http://inews.qq.com/inews/iphone/
-user-agent: QQNews/5.7.22 (iPhone; iOS 12.0.1; Scale/2.00)
-content-length: 2169
-accept-encoding: br, gzip, deflate
-cookie: logintype=2
-qqnetwork: wifi}
+headers = {"content-type": "application/x-www-form-urlencoded",
+           "store": "1",
+           "accept": "*/*",
+           "qn-sig": "AD2CE2EF36ACE2846CFD60C9920D806C",
+           "idft": "CE1E8744-7BF9-4FDD-87A5-463C6B9A66E1",
+           "idfa": "05571C2D-1C86-4B5B-87EF-E4B4DAF07DDB",
+           "appver": "12.0.1_qqnews_5.7.22",
+           "qn-rid": "FC7162AE-23C4-4C98-8085-ED041D227E1E",
+           "devid": "d605a70a-d084-487e-aaf1-8a057d40ef39",
+           "devicetoken": "<f4b49138 3ca95e38 1519836e daefaab6 799b04da c164f7a7 4cb7d999 6e343393>",
+           "accept-language": "zh-Hans-CN;q=1, en-CN;q=0.9",
+           "referer": "http://inews.qq.com/inews/iphone/",
+           "user-agent": "QQNews/5.7.22 (iPhone; iOS 12.0.1; Scale/2.00)",
+           "content-length": "2169",
+           "accept-encoding": "br, gzip, deflate",
+           "cookie": "logintype=2",
+           "qqnetwork": "wifi"}
 
 post_str1 = 'chlid=news_news_ent&channelType=news_news_ent&uid=6F0D5898-2C3A-46FE-9181-589BC52ED743&forward=2&cachedCount=0&adReqData={"chid":2,"adtype":0,"pf":"iphone","launch":"0","ext":{"mob":{"mobstr":"Aejy45+NeSZw4VxymYnnIhMV+MEM+6sW9Rkw16FvkWGCz1rsPQflpTnsN+KnArzMwheqHiLErlbOlNWL0SoBI0lJtRh13iyR+LxSv3Y+hJrixm\/Sxn\/YhInAhlYioOjQ9cHGSSRmdgaDyqx2dDLZosKp+QSMqr649GGxQ36xbSdjbvZ3MGywBOsVNcf+EZkV+U9Q8LyDPc6PZ56b\/GLGncf4XcrVFnKlUi+kebsg8DCD\/nlvTDGSkWOtu33GJ4Ct\/hfZ1c3UNHw5bRwHRM0L0+6QYANTrPzl2X6hZK3kijlJsub+RvcPNPNQGrhK3e4yYHJmspW19qE5mPgxd5lbwzIywD+XJDxvkYsO4fRqAbX0w6r3BQ\/tx+VmBRw6dNDoM35SYVb8WluE09y6zIQwoqEc4Q6dKq8A88GUsK0jU3CcKkzpg9qNfz7D2JtY7JRUjHuYNJDMa0zUtvp1VRpH+JcaQ0ipAXxsPNa5EWoiugr57SXcqytZ8O2SNL4wvDFgQzakd8oVbnHYcjG1FZqxNOZUkBbMsLxkSrop\/l31crXzNJR\/KLv7tIVmxb1Ry\/tSxfGTJ7WmUVlP7J7I\/eaBEO2n0hMGyoipt4MeCMgEZ0DK4wFICizRK2q9WV+zwVxi9T2mTE0QLsZdwUYqdnNXUxX3mzM+tb5+hBMgJOwDY555D6h\/AylW6ksYzYGcg+cOgC52s0WjuQHLYiEyF6\/7HiRjRM0eWY9AWU1irLCs8ryJOvnGo1GfiSlwk7bbadpQU1i9jN8hLxinI96BNDC8PeqJPiE+NRpQXY2r6LiMVKH696TlbqIQnPd0XMyqjY\/8i9ShSQxhtFT\/7b4YMzuGBkHpMqhMsdFaynLKTJmIBLnF"}},"ver":"5.7.22","slot":[{"islocal":0,"orders_info":["89450032,8045663,1009005057,19,4301,110,1","91041797,9117817,2544848705,1000,4201,110,2","88685632,1266139,1761176905,19,101,110,3","91182222,7205377,917308484,19,4301,110,1","78935557,3792957,513087546,1000,101,110,2","91150036,8984533,2617909952,19,4202,110,1","89033789,1252416,860268798,19,2804,110,1","83500396,8636963,3787879925,19,4301,110,1","52185236,1252416,1726326952,19,2804,110,1"],"recent_rot":["1,2,3","4,5,6","1,7,5","3,8,9"],"refresh_type":0,"loid":"1,13,16,23","channel":"news_news_ent"}],"appversion":"181210"}&channelPosition=5&page=0'
 post_str2 = 'chlid=news_news_ent&channelType=news_news_ent&uid=6F0D5898-2C3A-46FE-9181-589BC52ED743&forward=2&cachedCount=0&adReqData={"chid":2,"adtype":0,"pf":"iphone","launch":"0","ext":{"mob":{"mobstr":"Aejy45+NeSZw4VxymYnnIhMV+MEM+6sW9Rkw16FvkWGCz1rsPQflpTnsN+KnArzMwheqHiLErlbOlNWL0SoBI0lJtRh13iyR+LxSv3Y+hJrixm\/Sxn\/YhInAhlYioOjQ9cHGSSRmdgaDyqx2dDLZosKp+QSMqr649GGxQ36xbSdjbvZ3MGywBOsVNcf+EZkV+U9Q8LyDPc6PZ56b\/GLGncf4XcrVFnKlUi+kebsg8DCD\/nlvTDGSkWOtu33GJ4Ct\/hfZ1c3UNHw5bRwHRM0L0+6QYANTrPzl2X6hZK3kijlJsub+RvcPNPNQGrhK3e4yYHJmspW19qE5mPgxd5lbwzIywD+XJDxvkYsO4fRqAbX0w6r3BQ\/tx+VmBRw6dNDoM35SYVb8WluE09y6zIQwoqEc4Q6dKq8A88GUsK0jU3CcKkzpg9qNfz7D2JtY7JRUjHuYNJDMa0zUtvp1VRpH+JcaQ0ipAXxsPNa5EWoiugr57SXcqytZ8O2SNL4wvDFgQzakd8oVbnHYcjG1FZqxNOZUkBbMsLxkSrop\/l31crXzNJR\/KLv7tIVmxb1Ry\/tSxfGTJ7WmUVlP7J7I\/eaBEO2n0hMGyoipt4MeCMgEZ0DK4wFICizRK2q9WV+zwVxi9T2mTE0QLsZdwUYqdnNXUxX3mzM+tb5+hBMgJOwDY555D6h\/AylW6ksYzYGcg+cOgC52s0WjuQHLYiEyF6\/7HiRjRM0eWY9AWU1irLCs8ryJOvnGo1GfiSlwk7bbadpQU1i9jN8hLxinI96BNDC8PeqJPiE+NRpQXY2r6LiMVKH696TlbqIQnPd0XMyqjY\/8i9ShSQxhtFT\/7b4YMzuGBkHpMqhMsdFaynLKTJmIBLnF"}},"ver":"5.7.22","slot":[{"islocal":0,"orders_info":["89450032,8045663,1009005057,19,4301,110,1","91041797,9117817,2544848705,1000,4201,110,2","88685632,1266139,1761176905,19,101,110,3","91182222,7205377,917308484,19,4301,110,1","78935557,3792957,513087546,1000,101,110,2","91150036,8984533,2617909952,19,4202,110,1","89033789,1252416,860268798,19,2804,110,1","83500396,8636963,3787879925,19,4301,110,1","52185236,1252416,1726326952,19,2804,110,1"],"recent_rot":["1,2,3","4,5,6","1,7,5","3,8,9"],"refresh_type":0,"loid":"1,13,16,23","channel":"news_news_ent"}],"appversion":"181210"}&channelPosition=5&page=0'
