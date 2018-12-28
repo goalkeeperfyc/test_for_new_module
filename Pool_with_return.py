@@ -15,7 +15,7 @@ if __name__ == "__main__":
     pool = Pool(10)
     for line in range(30):
         result = pool.apply_async(cal, args=(line, line))
-        result_list.append(result)
+        result_list.append(result())
     pool.close()
     pool.join()
     print(result_list)
