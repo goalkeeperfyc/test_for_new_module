@@ -34,3 +34,5 @@ df = df.append(pd.Series(data={'Cost': 3.00, 'Item Purchased': 'Kitty Food'},
 
 #how to merge two data frame with same column and index
 #how to add new data to data frame
+
+
