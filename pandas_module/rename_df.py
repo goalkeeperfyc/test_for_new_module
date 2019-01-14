@@ -30,3 +30,4 @@ rename_dict = {'Unnamed: 2': 'Country',
 df = df.rename(columns=rename_dict)
 
 # Unnamed: 2	Petajoules	Gigajoules	%
+    
