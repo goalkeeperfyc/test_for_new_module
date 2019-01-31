@@ -47,5 +47,13 @@ poly = PolynomialFeatures(degree=12)
 X_train = poly.fit_transform(X_train_reshape)
 X_test = poly.fit_transform(X_test_reshape)
 
-linear = LinearRegression.fit(X_train, y_train)
+linear = LinearRegression().fit(X_train, y_train_reshape)
+linear_pred = linear.predict(X_test)
+linear_score = r2_score(y_test_reshape, linear_pred)
+#linear_score2 = linear.score(X_test, y_test_reshape)
+#the r2_score is equal to linear.score
 
+lasso = Lasso(alpha=0.01, max_iter=10000).fit(X_train, y_train_reshape)
+lasso_pred = lasso.predict(X_test)
+#lasso_score2 = r2_score(y_test_reshape, lasso_pred)
+lasso_score = lasso.score(X_test, y_test_reshape)
