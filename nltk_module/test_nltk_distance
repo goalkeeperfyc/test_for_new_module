@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar  4 14:22:07 2019
+
+@author: fangyucheng
+Email: 664947387@qq.com
+"""
+
+
+import nltk
+
+"""edit distance"""
+#test1
+w1 = 'mapping'
+w2 = 'mappings'
+
+print(nltk.edit_distance(w1, w2))
+
+
+#test2
+mistake = "ligting"
+ 
+words = ['apple', 'bag', 'drawing', 'listing', 'linking', 'living', 'lighting', 'orange', 'walking', 'zoo']
+ 
+for word in words:
+    ed = nltk.edit_distance(mistake, word)
+    print(word, ed)
+
+
+#test3 
+sent1 = "It might help to re-install Python if possible."
+sent2 = "It can help to install Python again if possible."
+sent3 = "It can be so helpful to reinstall C++ if possible."
+sent4 = "help It possible Python to re-install if might." # This has the same words as sent1 with a different order.
+sent5 = "I love Python programming."
+ 
+ed_sent_1_2 = nltk.edit_distance(sent1, sent2)
+ed_sent_1_3 = nltk.edit_distance(sent1, sent3)
+ed_sent_1_4 = nltk.edit_distance(sent1, sent4)
+ed_sent_1_5 = nltk.edit_distance(sent1, sent5)
+
+print(ed_sent_1_2, 'Edit Distance between sent1 and sent2')
+print(ed_sent_1_3, 'Edit Distance between sent1 and sent3')
+print(ed_sent_1_4, 'Edit Distance between sent1 and sent4')
+print(ed_sent_1_5, 'Edit Distance between sent1 and sent5')
+
+#my test
+w1 = 'monkey'
+w2 = 'onkey'
+print(nltk.edit_distance(w1, w2))
+
+w1 = 'ab'
+w2 = 'ba'
+print(nltk.edit_distance(w1, w2))
+print(nltk.edit_distance(w1, w2, transpositions=True))
+
+"""jaccard distance"""
+#test1
+w1 = set('mapping')
+w2 = set('mappings')
+
+print(nltk.jaccard_distance(w1, w2))
+
+
+#test2
+mistake = "ligting"
+ 
+words = ['apple', 'bag', 'drawing', 'listing', 'linking', 'living', 'lighting', 'orange', 'walking', 'zoo']
+ 
+for word in words:
+    ed = nltk.jaccard_distance(set(mistake), set(word))
+    print(word, ed)
+
+
+#test3
+sent1 = set("It might help to re-install Python if possible.")
+sent2 = set("It can help to install Python again if possible.")
+sent3 = set("It can be so helpful to reinstall C++ if possible.")
+sent4 = set("help It possible Python to re-install if might.") # This has the same words as sent1 with a different order.
+sent5 = set("I love Python programming.")
+ 
+jd_sent_1_2 = nltk.jaccard_distance(sent1, sent2)
+jd_sent_1_3 = nltk.jaccard_distance(sent1, sent3)
+jd_sent_1_4 = nltk.jaccard_distance(sent1, sent4)
+jd_sent_1_5 = nltk.jaccard_distance(sent1, sent5)
+
+print(jd_sent_1_2, 'Jaccard Distance between sent1 and sent2')
+print(jd_sent_1_3, 'Jaccard Distance between sent1 and sent3')
+print(jd_sent_1_4, 'Jaccard Distance between sent1 and sent4')
+print(jd_sent_1_5, 'Jaccard Distance between sent1 and sent5')
+
+#my test
+w1 = 'mapping'
+w2 = 'mappings'
+print(nltk.jaccard_distance(set(nltk.ngrams(w1, n=3)), set(nltk.ngrams(w2, n=3))))
+print(nltk.jaccard_distance(set(nltk.ngrams(w1, n=3)), set(nltk.ngrams(w1, n=3))))
