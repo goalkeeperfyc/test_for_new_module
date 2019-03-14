@@ -1,0 +1,13 @@
+pandas 常用命令
+df['column'].value_counts() #统计该列不同值的频数
+df.isnull() #生成bool值，判断df内的值是否为空
+df.sum() #统计总数（空值会被忽略）
+df.count() #统计个数
+df.describe() #对df进行描述性统计
+df.info() #获得df的基本信息
+pd.to_datetime() #把字符串格式的时间转化为datetime格式
+df['column'].apply(function) #对某一列使用某个函数
+df['column'].map(function) #对某一列使用某个函数
+df.fillna(0) / df['column'].fillna(0) #将缺失值填充为0
+df.dropna() #删除空值所在的row
+df.drop_duplicates #去重
