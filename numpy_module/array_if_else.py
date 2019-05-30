@@ -12,9 +12,6 @@ import numpy as np
 task = [0.50154066, 0.49899566, 0.50213783]
 task_array = np.array(task)
 task_array = task_array.reshape(1,3)
-for line in task_array:
-    for num in line:
-        if num >= 0.5:
-            num = 1
-        else:
-            num = 0
+new_array = task_array > 0.5
+
+multiply = new_array * 2
