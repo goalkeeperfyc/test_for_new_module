@@ -1,7 +1,7 @@
 import logging
 
 # set up logging to file - see previous section for more details
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(name)4s: %(filename)s %(funcName)s %(levelname)8s: %(message)s',
                     handlers=[logging.FileHandler("test.log", "a"), logging.StreamHandler()])
 

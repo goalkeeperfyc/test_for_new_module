@@ -1,0 +1,50 @@
+06-17 19:33 root         INFO     Jackdaws love my big sphinx of quartz.
+06-17 19:33 myapp.area1  DEBUG    Quick zephyrs blow, vexing daft Jim.
+06-17 19:33 myapp.area1  INFO     How quickly daft jumping zebras vex.
+06-17 19:33 myapp.area2  WARNING  Jail zesty vixen who grabbed pay from quack.
+06-17 19:33 myapp.area2  ERROR    The five boxing wizards jump quickly.
+06-17 19:34 root: logging_printToScreen.py <module> INFO Jackdaws love my big sphinx of quartz.
+06-17 19:34 myapp.area1: logging_printToScreen.py <module> DEBUG Quick zephyrs blow, vexing daft Jim.
+06-17 19:34 myapp.area1: logging_printToScreen.py <module> INFO How quickly daft jumping zebras vex.
+06-17 19:34 myapp.area2: logging_printToScreen.py <module> WARNING Jail zesty vixen who grabbed pay from quack.
+06-17 19:34 myapp.area2: logging_printToScreen.py <module> ERROR The five boxing wizards jump quickly.
+06-17 19:34         root: logging_printToScreen.py <module> INFO Jackdaws love my big sphinx of quartz.
+06-17 19:34  myapp.area1: logging_printToScreen.py <module> DEBUG Quick zephyrs blow, vexing daft Jim.
+06-17 19:34  myapp.area1: logging_printToScreen.py <module> INFO How quickly daft jumping zebras vex.
+06-17 19:34  myapp.area2: logging_printToScreen.py <module> WARNING Jail zesty vixen who grabbed pay from quack.
+06-17 19:34  myapp.area2: logging_printToScreen.py <module> ERROR The five boxing wizards jump quickly.
+2019-06-17 19:35:17,492         root: logging_printToScreen.py <module> INFO Jackdaws love my big sphinx of quartz.
+2019-06-17 19:35:17,493  myapp.area1: logging_printToScreen.py <module> DEBUG Quick zephyrs blow, vexing daft Jim.
+2019-06-17 19:35:17,493  myapp.area1: logging_printToScreen.py <module> INFO How quickly daft jumping zebras vex.
+2019-06-17 19:35:17,493  myapp.area2: logging_printToScreen.py <module> WARNING Jail zesty vixen who grabbed pay from quack.
+2019-06-17 19:35:17,493  myapp.area2: logging_printToScreen.py <module> ERROR The five boxing wizards jump quickly.
+2019-06-17 19:35:33,881         root: logging_printToScreen.py <module> INFO Jackdaws love my big sphinx of quartz.
+2019-06-17 19:35:33,882  myapp.area1: logging_printToScreen.py <module> DEBUG Quick zephyrs blow, vexing daft Jim.
+2019-06-17 19:35:33,882  myapp.area1: logging_printToScreen.py <module> INFO How quickly daft jumping zebras vex.
+2019-06-17 19:35:33,882  myapp.area2: logging_printToScreen.py <module> WARNING Jail zesty vixen who grabbed pay from quack.
+2019-06-17 19:35:33,882  myapp.area2: logging_printToScreen.py <module> ERROR The five boxing wizards jump quickly.
+2019-06-17 19:36:24,864         root: logging_printToScreen.py <module>       INFO Jackdaws love my big sphinx of quartz.
+2019-06-17 19:36:24,864         log1: logging_printToScreen.py <module>      DEBUG Quick zephyrs blow, vexing daft Jim.
+2019-06-17 19:36:24,864         log1: logging_printToScreen.py <module>       INFO How quickly daft jumping zebras vex.
+2019-06-17 19:36:24,864         log2: logging_printToScreen.py <module>    WARNING Jail zesty vixen who grabbed pay from quack.
+2019-06-17 19:36:24,864         log2: logging_printToScreen.py <module>      ERROR The five boxing wizards jump quickly.
+2019-06-17 19:36:33,300         root: logging_printToScreen.py <module>     INFO Jackdaws love my big sphinx of quartz.
+2019-06-17 19:36:33,300         log1: logging_printToScreen.py <module>    DEBUG Quick zephyrs blow, vexing daft Jim.
+2019-06-17 19:36:33,300         log1: logging_printToScreen.py <module>     INFO How quickly daft jumping zebras vex.
+2019-06-17 19:36:33,300         log2: logging_printToScreen.py <module>  WARNING Jail zesty vixen who grabbed pay from quack.
+2019-06-17 19:36:33,300         log2: logging_printToScreen.py <module>    ERROR The five boxing wizards jump quickly.
+2019-06-17 19:36:41,926   root: logging_printToScreen.py <module>     INFO Jackdaws love my big sphinx of quartz.
+2019-06-17 19:36:41,926   log1: logging_printToScreen.py <module>    DEBUG Quick zephyrs blow, vexing daft Jim.
+2019-06-17 19:36:41,926   log1: logging_printToScreen.py <module>     INFO How quickly daft jumping zebras vex.
+2019-06-17 19:36:41,926   log2: logging_printToScreen.py <module>  WARNING Jail zesty vixen who grabbed pay from quack.
+2019-06-17 19:36:41,926   log2: logging_printToScreen.py <module>    ERROR The five boxing wizards jump quickly.
+2019-06-17 19:37:04,686 root: logging_printToScreen.py <module>     INFO Jackdaws love my big sphinx of quartz.
+2019-06-17 19:37:04,687 log1: logging_printToScreen.py <module>    DEBUG Quick zephyrs blow, vexing daft Jim.
+2019-06-17 19:37:04,687 log1: logging_printToScreen.py <module>     INFO How quickly daft jumping zebras vex.
+2019-06-17 19:37:04,687 log2: logging_printToScreen.py <module>  WARNING Jail zesty vixen who grabbed pay from quack.
+2019-06-17 19:37:04,687 log2: logging_printToScreen.py <module>    ERROR The five boxing wizards jump quickly.
+2019-06-17 19:37:19,400 root: logging_printToScreen.py <module>     INFO: Jackdaws love my big sphinx of quartz.
+2019-06-17 19:37:19,400 log1: logging_printToScreen.py <module>    DEBUG: Quick zephyrs blow, vexing daft Jim.
+2019-06-17 19:37:19,400 log1: logging_printToScreen.py <module>     INFO: How quickly daft jumping zebras vex.
+2019-06-17 19:37:19,400 log2: logging_printToScreen.py <module>  WARNING: Jail zesty vixen who grabbed pay from quack.
+2019-06-17 19:37:19,401 log2: logging_printToScreen.py <module>    ERROR: The five boxing wizards jump quickly.

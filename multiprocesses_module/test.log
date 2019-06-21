@@ -1,0 +1,6 @@
+2019-06-17 19:45:25,931 root: multiprocessing_with_logging.py func1     INFO: this is process 29188 with 10
+2019-06-17 19:45:30,931 root: multiprocessing_with_logging.py func1     INFO: this is process 29188
+2019-06-17 19:47:31,577 root: multiprocessing_with_logging.py func1     INFO: this is process 25096 with 10
+2019-06-17 19:47:36,578 root: multiprocessing_with_logging.py func1     INFO: this is process 25096
+2019-06-17 19:47:49,083 root: multiprocessing_with_logging.py func1     INFO: this is process 19156 with 10
+2019-06-17 19:47:54,084 root: multiprocessing_with_logging.py func1     INFO: this is process 19156
