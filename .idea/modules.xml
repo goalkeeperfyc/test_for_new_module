@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/../csm_documentary/.idea/csm_documentary.iml" filepath="$PROJECT_DIR$/../csm_documentary/.idea/csm_documentary.iml" />
+=======
+>>>>>>> 424e98aef613db50c86239499aafd141383266dd
       <module fileurl="file://$PROJECT_DIR$/.idea/test_for_new_module.iml" filepath="$PROJECT_DIR$/.idea/test_for_new_module.iml" />
     </modules>
   </component>
