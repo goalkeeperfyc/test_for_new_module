@@ -38,5 +38,6 @@ if __name__ == '__main__':
     pool = Pool(5)
     for num in range(5):
         pool.apply_async(func=test.func1, args=(num,))
+        pool.apply_async(func=test.func2, args=(num, num))
     pool.close()
     pool.join()
