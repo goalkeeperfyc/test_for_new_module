@@ -1,5 +1,8 @@
 import logging
 
+### 
+# Use this scrpit in splitted file 
+
 ### set up logging
 
 logging.basicConfig(level=logging.DEBUG,
